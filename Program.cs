@@ -10,7 +10,10 @@ namespace Начальный_проект
     {
         static void Main(string[] args)//Для закпуска нажать Ctrl + F5
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Enter your name");
+            string username = Console.ReadLine();
+            Console.Write("Hello, ");
+            Console.WriteLine(username);
         }
     }
 }
