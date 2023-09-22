@@ -14,6 +14,7 @@ namespace Начальный_проект
             string username = Console.ReadLine();
             Console.Write("Hello, ");
             Console.WriteLine(username);
+            Console.WriteLine("Ab56");
         }
     }
 }
